@@ -4,5 +4,5 @@ import os
     sslocal -c 'point to your shadowsoks config file address'
 '''
 
-os.system("sslocal -c /etc/shadowsocks/config.json")
+os.system("sslocal -c /etc/shadowsocks/config.json &")
 
