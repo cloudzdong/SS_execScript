@@ -1,0 +1,11 @@
+A little script for shadowsocks(Linux) execution in the background
+
+********************************************************************
+
+Instruciotn:
+
+    1.vim SS_exec.py(modify the scirpt)
+    2.modify the command:
+      sslocal -c 'point to your shadowsocks config file absolute address'
+    3.:wq
+    4.python SS_exec.py(After that ,you can close the terminal.SS has run in the background.)
